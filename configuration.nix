@@ -89,8 +89,6 @@ services = {
     layout = "es"; # See Reference 4 in References section.
     xkbOptions = "eurosign:e";
     libinput.enable = true;
-    videoDrivers = [ "vmware" "vesa" "mesa" ];
-    resolutions = [ { x = 1366; y = 768; } ];
     displayManager = {
       lightdm.greeters.mini = {
         enable = true;
